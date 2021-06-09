@@ -1,0 +1,13 @@
+<c3p0-config>
+    <default-config>
+        <!--  connect param -->
+        <!--  driver name  -->
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <!--  database URL  -->
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/ds_final_project</property>
+        <!--  username  -->
+        <property name="user">root</property>
+        <!--  password  -->
+        <property name="password">kiss1234</property>
+    </default-config>
+</c3p0-config>
